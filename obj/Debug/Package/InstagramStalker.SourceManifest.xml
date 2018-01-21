@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\Asp.Net MVC Projects\InstagramStalker\InstagramStalker\obj\Debug\Package\PackageTmp" />
+  <setAcl path="D:\Asp.Net MVC Projects\InstagramStalker\InstagramStalker\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\Asp.Net MVC Projects\InstagramStalker\InstagramStalker\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

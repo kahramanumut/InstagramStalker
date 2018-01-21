@@ -1,0 +1,210 @@
+﻿@font-face {
+    font-family: 'billabongregular';
+    src: url('/Content/fonts/billabong-webfont.eot');
+    src: url('/Content/fonts/billabong-webfont.eot?#iefix') format('embedded-opentype'), url('/Content/fonts/billabong-webfont.woff') format('woff'), url('/Content/fonts/billabong-webfont.ttf') format('truetype'), url('/Content/fonts/billabong-webfont.svg#billabongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #223232;
+    height: 100%;
+    background: rgba(238, 238, 238, 0.28);
+}
+
+.top {
+    position: fixed;
+    top: 0;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 4px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.flex {
+    display: flex;
+    height: 100%;
+    margin: 0;
+}
+
+.flexin {
+    flex: 1;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: block;
+    width: 400px;
+    margin-bottom:10%;
+    padding: 80px 0;
+}
+
+.control-group {
+    width: 100%;
+    position: relative;
+}
+
+.control {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 4px 56px 4px 12px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0px 1px 12px rgba(0,0,0,0.1), 0px 2px 2px rgba(0,0,0,.02);
+    transition: all ease 1.2s;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.btn {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 22px;
+    background-image: url('img/background.png');
+    background-position: 0;
+    right: 4px;
+    top: 3px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 25px auto 0;
+    transition: all ease 1.2s;
+}
+
+    .btn:hover {
+        background-position: 100% 50%;
+        cursor: pointer;
+        box-shadow: 0px 4px 19px rgba(0,0,0,0.15), 0px 4px 4px rgba(0,0,0,.05);
+    }
+
+.control:hover,
+.control:active,
+.control:focus {
+    box-shadow: 0px 4px 19px rgba(0,0,0,0.15), 0px 4px 4px rgba(0,0,0,.05);
+}
+
+
+img {
+    max-width: 100%;
+    margin: 50px auto 0;
+    height: auto;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: all ease 1.2s;
+    box-shadow: 0px 1px 12px rgba(0,0,0,0.1), 0px 2px 2px rgba(0,0,0,.02);
+}
+
+    img:hover {
+        box-shadow: 0px 4px 19px rgba(0,0,0,0.15), 0px 4px 4px rgba(0,0,0,.05);
+        cursor: pointer;
+    }
+
+.error {
+    border-left: 3px solid #df4348;
+    padding: 12px;
+    border-radius: 3px;
+    font-family: arial;
+    box-shadow: 0px 2px 12px rgba(0,0,0,.1);
+    font-size: 13px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.loading {
+    display: flex;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 99999;
+}
+
+svg path {
+    fill: #ef5e31;
+}
+
+
+#footer {
+
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.ensure,
+.ensure a {
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.38);
+    text-align: center;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+    .ensure a {
+        color: #e1306c;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .ensure a:hover {
+            color: #833ab4;
+        }
+
+p.desc {
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 16px;
+    color: rgba(0,0,0,.54);
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+
+a.logo {
+    color: #222;
+    font-family: 'billabongregular';
+    font-size: 64px;
+    margin-bottom:20%;
+    margin-left:6%;
+    display: inline-block;
+}
+
+a.logo:hover {
+        color: #125688;
+        text-decoration: none;
+}
+
