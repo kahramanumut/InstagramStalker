@@ -36,8 +36,13 @@ namespace InstagramStalker
 
         public string ZoomPictureLink()
         {
+
             string pictureLink = GetPictureLink();
-            return pictureLink.Replace("/s150x150", ""); 
+            int startVp = pictureLink.IndexOf("/vp/");
+            int finalT52 = pictureLink.IndexOf("/t51");
+            string first = pictureLink.Remove(startVp, finalT52 - startVp);
+
+            return first.Replace("s150x150","");
         }
 
     }
